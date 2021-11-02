@@ -1,0 +1,158 @@
+[Mon Nov 01 00:23:24.730623 2021] [wsgi:error] [pid 24807:tid 139940460685056] [client 190.107.226.247:27454] Target WSGI script not found or unable to stat: /var/www/FlaskWebSite.wsgi
+[Mon Nov 01 00:25:09.736040 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455] mod_wsgi (pid=24927): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:25:09.736097 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455] mod_wsgi (pid=24927): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:25:09.743383 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455] Traceback (most recent call last):
+[Mon Nov 01 00:25:09.743416 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:25:09.743426 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455]     with open(activate_this) as file_:
+[Mon Nov 01 00:25:09.743443 2021] [wsgi:error] [pid 24927:tid 139981300983552] [remote 190.107.226.247:27455] FileNotFoundError: [Errno 2] No such file or directory: '. /home/ubuntu/.local/share/virtualenvs/FlaskWebSite-i3HSzT-j/bin/activate'
+[Mon Nov 01 00:29:06.839388 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457] mod_wsgi (pid=25053): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:29:06.839441 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457] mod_wsgi (pid=25053): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:29:06.846122 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457] Traceback (most recent call last):
+[Mon Nov 01 00:29:06.846157 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:29:06.846164 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457]     with open(activate_this) as file_:
+[Mon Nov 01 00:29:06.846181 2021] [wsgi:error] [pid 25053:tid 139819843004160] [remote 190.107.226.247:27457] FileNotFoundError: [Errno 2] No such file or directory: '. /home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate'
+[Mon Nov 01 00:29:08.250956 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458] mod_wsgi (pid=25053): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:29:08.251004 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458] mod_wsgi (pid=25053): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:29:08.251086 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458] Traceback (most recent call last):
+[Mon Nov 01 00:29:08.251115 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:29:08.251120 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458]     with open(activate_this) as file_:
+[Mon Nov 01 00:29:08.251136 2021] [wsgi:error] [pid 25053:tid 139819809433344] [remote 190.107.226.247:27458] FileNotFoundError: [Errno 2] No such file or directory: '. /home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate'
+[Mon Nov 01 00:34:04.622329 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459] mod_wsgi (pid=25190): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:34:04.622382 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459] mod_wsgi (pid=25190): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:34:04.627578 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459] Traceback (most recent call last):
+[Mon Nov 01 00:34:04.627635 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:34:04.628387 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459]     with open(activate_this) as file_:
+[Mon Nov 01 00:34:04.628427 2021] [wsgi:error] [pid 25190:tid 139777388898048] [remote 190.107.226.247:27459] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 00:34:05.790989 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460] mod_wsgi (pid=25190): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:34:05.791035 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460] mod_wsgi (pid=25190): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:34:05.791120 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460] Traceback (most recent call last):
+[Mon Nov 01 00:34:05.791150 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:34:05.791168 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460]     with open(activate_this) as file_:
+[Mon Nov 01 00:34:05.791187 2021] [wsgi:error] [pid 25190:tid 139777355327232] [remote 190.107.226.247:27460] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 00:38:32.488520 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461] mod_wsgi (pid=25389): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:38:32.488578 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461] mod_wsgi (pid=25389): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:38:32.493662 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461] Traceback (most recent call last):
+[Mon Nov 01 00:38:32.493694 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:38:32.493700 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461]     with open(activate_this) as file_:
+[Mon Nov 01 00:38:32.493717 2021] [wsgi:error] [pid 25389:tid 139836810123008] [remote 190.107.226.247:27461] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 00:46:18.052972 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462] mod_wsgi (pid=25613): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:46:18.053030 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462] mod_wsgi (pid=25613): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:46:18.057976 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462] Traceback (most recent call last):
+[Mon Nov 01 00:46:18.058009 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:46:18.058016 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462]     with open(activate_this) as file_:
+[Mon Nov 01 00:46:18.058033 2021] [wsgi:error] [pid 25613:tid 139879331944192] [remote 190.107.226.247:27462] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 00:47:40.365979 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152] mod_wsgi (pid=25613): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:47:40.366031 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152] mod_wsgi (pid=25613): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 00:47:40.367967 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152] Traceback (most recent call last):
+[Mon Nov 01 00:47:40.368002 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 00:47:40.368008 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152]     with open(activate_this) as file_:
+[Mon Nov 01 00:47:40.368024 2021] [wsgi:error] [pid 25613:tid 139879298373376] [remote 45.134.225.15:52152] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:01:34.704129 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399] mod_wsgi (pid=25764): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:01:34.704212 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399] mod_wsgi (pid=25764): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:01:34.708897 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399] Traceback (most recent call last):
+[Mon Nov 01 01:01:34.708927 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:01:34.708933 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399]     with open(activate_this) as file_:
+[Mon Nov 01 01:01:34.708949 2021] [wsgi:error] [pid 25764:tid 139750119257856] [remote 190.107.226.247:28399] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:01:36.262463 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400] mod_wsgi (pid=25764): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:01:36.262502 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400] mod_wsgi (pid=25764): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:01:36.262578 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400] Traceback (most recent call last):
+[Mon Nov 01 01:01:36.262607 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:01:36.262613 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400]     with open(activate_this) as file_:
+[Mon Nov 01 01:01:36.262629 2021] [wsgi:error] [pid 25764:tid 139750085687040] [remote 190.107.226.247:28400] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:02:13.053483 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401] mod_wsgi (pid=25856): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:02:13.053539 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401] mod_wsgi (pid=25856): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:02:13.058481 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401] Traceback (most recent call last):
+[Mon Nov 01 01:02:13.058512 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:02:13.058519 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401]     with open(activate_this) as file_:
+[Mon Nov 01 01:02:13.058536 2021] [wsgi:error] [pid 25856:tid 140616298809088] [remote 190.107.226.247:28401] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:02:14.132252 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402] mod_wsgi (pid=25856): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:02:14.132303 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402] mod_wsgi (pid=25856): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:02:14.132393 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402] Traceback (most recent call last):
+[Mon Nov 01 01:02:14.132424 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:02:14.132430 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402]     with open(activate_this) as file_:
+[Mon Nov 01 01:02:14.132447 2021] [wsgi:error] [pid 25856:tid 140616265238272] [remote 190.107.226.247:28402] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:05:48.494306 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409] mod_wsgi (pid=26002): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:05:48.494359 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409] mod_wsgi (pid=26002): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:05:48.499745 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409] Traceback (most recent call last):
+[Mon Nov 01 01:05:48.499780 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:05:48.499787 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409]     with open(activate_this) as file_:
+[Mon Nov 01 01:05:48.499806 2021] [wsgi:error] [pid 26002:tid 139655584864000] [remote 190.107.226.247:28409] FileNotFoundError: [Errno 2] No such file or directory: 'source /home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:07:59.743414 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413] mod_wsgi (pid=26099): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:07:59.743466 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413] mod_wsgi (pid=26099): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:07:59.748406 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413] Traceback (most recent call last):
+[Mon Nov 01 01:07:59.748439 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:07:59.748446 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413]     with open(activate_this) as file_:
+[Mon Nov 01 01:07:59.748463 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 190.107.226.247:28413] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:12:48.731447 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436] mod_wsgi (pid=26099): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:12:48.731500 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436] mod_wsgi (pid=26099): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:12:48.731587 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436] Traceback (most recent call last):
+[Mon Nov 01 01:12:48.731619 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:12:48.731642 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436]     with open(activate_this) as file_:
+[Mon Nov 01 01:12:48.731662 2021] [wsgi:error] [pid 26099:tid 140473587312384] [remote 209.141.44.172:60436] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:14:24.406018 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440] mod_wsgi (pid=26099): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:14:24.406068 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440] mod_wsgi (pid=26099): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:14:24.406166 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440] Traceback (most recent call last):
+[Mon Nov 01 01:14:24.406194 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:14:24.406200 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440]     with open(activate_this) as file_:
+[Mon Nov 01 01:14:24.406219 2021] [wsgi:error] [pid 26099:tid 140473570526976] [remote 209.141.56.209:33440] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:16:15.395587 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422] mod_wsgi (pid=26223): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:16:15.395639 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422] mod_wsgi (pid=26223): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:16:15.400567 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422] Traceback (most recent call last):
+[Mon Nov 01 01:16:15.400602 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422]   File "/var/www/FlaskWebSite/app.wsgi", line 4, in <module>
+[Mon Nov 01 01:16:15.400608 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422]     from app import app as application
+[Mon Nov 01 01:16:15.400616 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422]   File "/var/www/FlaskWebSite/app.py", line 1, in <module>
+[Mon Nov 01 01:16:15.400621 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422]     from flask import Flask
+[Mon Nov 01 01:16:15.400638 2021] [wsgi:error] [pid 26223:tid 140689635936000] [remote 190.107.226.247:28422] ModuleNotFoundError: No module named 'flask'
+[Mon Nov 01 01:32:02.074252 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431] mod_wsgi (pid=26451): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:32:02.074304 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431] mod_wsgi (pid=26451): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:32:02.079089 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431] Traceback (most recent call last):
+[Mon Nov 01 01:32:02.079120 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:32:02.079127 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431]     with open(activate_this) as file_:
+[Mon Nov 01 01:32:02.079143 2021] [wsgi:error] [pid 26451:tid 140668186203904] [remote 190.107.226.247:28431] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 01:32:02.974116 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432] mod_wsgi (pid=26451): Failed to exec Python script file '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:32:02.975116 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432] mod_wsgi (pid=26451): Exception occurred processing WSGI script '/var/www/FlaskWebSite/app.wsgi'.
+[Mon Nov 01 01:32:02.975247 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432] Traceback (most recent call last):
+[Mon Nov 01 01:32:02.975310 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432]   File "/var/www/FlaskWebSite/app.wsgi", line 5, in <module>
+[Mon Nov 01 01:32:02.975318 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432]     with open(activate_this) as file_:
+[Mon Nov 01 01:32:02.975336 2021] [wsgi:error] [pid 26451:tid 140668152633088] [remote 190.107.226.247:28432] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/FlaskWebSite-l3HSzT-j/bin/activate_this.py'
+[Mon Nov 01 06:18:44.465738 2021] [wsgi:error] [pid 26601:tid 139681296307968] [client 222.137.170.149:54013] mod_wsgi (pid=26601): Request data read error when proxying data to daemon process: Partial results are valid but processing is incomplete.
+[Mon Nov 01 17:36:42.789853 2021] [core:error] [pid 26601:tid 139681110906624] [client 45.146.164.110:55976] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Nov 02 02:21:45.057557 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396] [2021-11-02 02:21:45,055] ERROR in app: Exception on / [GET]
+[Tue Nov 02 02:21:45.058234 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396] Traceback (most recent call last):
+[Tue Nov 02 02:21:45.058251 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 02 02:21:45.058261 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]     response = self.full_dispatch_request()
+[Tue Nov 02 02:21:45.058271 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 02 02:21:45.058281 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]     rv = self.handle_user_exception(e)
+[Tue Nov 02 02:21:45.058290 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 02 02:21:45.058299 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]     rv = self.dispatch_request()
+[Tue Nov 02 02:21:45.058308 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 02 02:21:45.058318 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 02 02:21:45.058327 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]   File "/var/www/FlaskWebSite/app.py", line 7, in index
+[Tue Nov 02 02:21:45.058336 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396]     return render_template("index.html")
+[Tue Nov 02 02:21:45.058359 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29396] NameError: name 'render_template' is not defined
+[Tue Nov 02 02:23:08.471123 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760] [2021-11-02 02:23:08,470] ERROR in app: Exception on / [GET]
+[Tue Nov 02 02:23:08.471158 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760] Traceback (most recent call last):
+[Tue Nov 02 02:23:08.471164 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 02 02:23:08.471182 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]     response = self.full_dispatch_request()
+[Tue Nov 02 02:23:08.471186 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 02 02:23:08.471190 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]     rv = self.handle_user_exception(e)
+[Tue Nov 02 02:23:08.471194 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 02 02:23:08.471198 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]     rv = self.dispatch_request()
+[Tue Nov 02 02:23:08.471201 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 02 02:23:08.471217 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 02 02:23:08.471221 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]   File "/var/www/FlaskWebSite/app.py", line 7, in index
+[Tue Nov 02 02:23:08.471224 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760]     return render_template("index.html")
+[Tue Nov 02 02:23:08.471228 2021] [wsgi:error] [pid 70746:tid 140618410796800] [remote 205.185.120.103:60760] NameError: name 'render_template' is not defined
+[Tue Nov 02 02:23:36.318821 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398] [2021-11-02 02:23:36,318] ERROR in app: Exception on / [GET]
+[Tue Nov 02 02:23:36.318841 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398] Traceback (most recent call last):
+[Tue Nov 02 02:23:36.318846 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 02 02:23:36.318850 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]     response = self.full_dispatch_request()
+[Tue Nov 02 02:23:36.318855 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 02 02:23:36.318859 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]     rv = self.handle_user_exception(e)
+[Tue Nov 02 02:23:36.318862 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 02 02:23:36.318866 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]     rv = self.dispatch_request()
+[Tue Nov 02 02:23:36.318870 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 02 02:23:36.318874 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 02 02:23:36.318878 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]   File "/var/www/FlaskWebSite/app.py", line 7, in index
+[Tue Nov 02 02:23:36.318882 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398]     return render_template("index.html")
+[Tue Nov 02 02:23:36.318885 2021] [wsgi:error] [pid 70746:tid 140618444367616] [remote 190.107.226.247:29398] NameError: name 'render_template' is not defined
