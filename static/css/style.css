@@ -24,5 +24,13 @@ header .nav2 a{
     margin-right: 10px;
 }
 footer{
-    background-image: url("https://i.pinimg.com/originals/b2/27/bc/b227bc858a11ee404975aa6761c78857.jpg");
+    background-image: url("/static/imgs/footer-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer .footer-menu{
+    padding: 100px;
+    font-family: 'Almendra', serif;
+    color: white;
 }
