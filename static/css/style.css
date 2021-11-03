@@ -18,6 +18,8 @@ body{
     background: #A5AAA3;
     padding: 10px;
 }
-.nav a{
+.nav2 a{
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
