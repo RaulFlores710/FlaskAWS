@@ -25,13 +25,14 @@ header .nav2 a{
     margin-right: 10px;
 }
 footer{
-    background-image: url("https://cdn.wallpapersafari.com/80/35/HXOizb.jpg");
+    background-image: url("https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/Survey_DnD_Articles_Header-Image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 footer .footer-menu{
     padding: 100px;
+    padding-left: 150px;
     font-family: 'Almendra', serif;
     color: white;
     font-size: 20px;
@@ -67,6 +68,7 @@ margin: 30px;
     font-family: 'Almendra SC', serif;
     color:#812F33;
     margin-left: 150px;
+    font-size: 50px;
 }
 .section2 p{
     font-family: 'Almendra', serif;
