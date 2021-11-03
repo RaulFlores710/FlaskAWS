@@ -40,9 +40,11 @@ footer .footer-menu{
     background-image: url(https://media.dnd.wizards.com/dnd_witchlight_highlight.png);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
-.section1 img{
+.section1 .left img{
     padding: 100px;
+    width: 40%;
 }
 
 .section1 .ver-mas{
