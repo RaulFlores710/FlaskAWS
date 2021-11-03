@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
+    background: #FCF0E0;
 }
 /*HEADER & FOOTER */
 header .nav1{
@@ -45,7 +46,6 @@ footer .footer-menu{
 .section1 .left img{
     padding: 100px;
 }
-
 .section1 .ver-mas{
     color: white;
 font-weight: 400;
@@ -61,7 +61,13 @@ background: rgba(0, 0, 0, 0.1);
 display: inline-block;
 cursor: pointer;
 }
+
+.section2 h1{
+    font-family: 'Almendra SC', serif;
+    color:#812F33;
+}
 .section2 p{
+    font-family: 'Almendra', serif;
     margin: 50px;
     margin-left: 150px;
     margin-right: 150px;
