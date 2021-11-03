@@ -28,7 +28,8 @@ footer{
     background-image: url("https://media.dnd.wizards.com/styles/news_banner_header/public/images/news/Survey_DnD_Articles_Header-Image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    margin: 0px;
 }
 footer .footer-menu{
     padding: 100px;
@@ -46,6 +47,7 @@ footer .footer-menu{
 }
 .section1 .left img{
     padding: 100px;
+    list-style: none;
 }
 .section1 .ver-mas{
     color: white;
