@@ -36,6 +36,11 @@ footer .footer-menu{
     font-size: 20px;
 }
 /* INDEX */
+.section1{
+    background-image: url(https://media.dnd.wizards.com/dnd_witchlight_highlight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .section1 .ver-mas{
     color: white;
 font-weight: 400;
