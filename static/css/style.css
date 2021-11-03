@@ -2,9 +2,17 @@ body{
     margin:0px;
     padding: 0px;
 }
+@font-face {
+    font-family: 'the_centurionregular';
+    src: url('the_centurion-webfont.woff2') format('woff2'),
+         url('the_centurion-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .nav1{
     text-align: center;
-    font-family: 'The Centurion Regular';
+    font-family: 'the_centurionregular';
     color: white;
     background: #812F33;
     padding: 10px;
