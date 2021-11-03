@@ -49,22 +49,24 @@ footer .footer-menu{
 .section1 .ver-mas{
     color: white;
 font-weight: 400;
-font-size: 1.6rem;
+font-size: 40px;
 line-height: inherit;
 text-transform: uppercase;
 text-decoration: none;
 padding: 6px;
 border-radius: 6px;
 outline: none;
-background: rgba(0, 0, 0, 0.1);
+background: #812F33;
     background-size: auto;
 display: inline-block;
 cursor: pointer;
+margin: 30px;
 }
 
 .section2 h1{
     font-family: 'Almendra SC', serif;
     color:#812F33;
+    margin-left: 150px;
 }
 .section2 p{
     font-family: 'Almendra', serif;
