@@ -41,6 +41,10 @@ footer .footer-menu{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.section1 img{
+    padding: 100px;
+}
+
 .section1 .ver-mas{
     color: white;
 font-weight: 400;
@@ -55,4 +59,8 @@ background: rgba(0, 0, 0, 0.1);
     background-size: auto;
 display: inline-block;
 cursor: pointer;
+}
+.section2 p{
+    margin-left: 50px;
+    margin-right: 50px;
 }
