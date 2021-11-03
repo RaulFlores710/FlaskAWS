@@ -29,7 +29,6 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin: 0px;
 }
 footer .footer-menu{
     padding: 100px;
@@ -37,6 +36,7 @@ footer .footer-menu{
     font-family: 'Almendra', serif;
     color: white;
     font-size: 20px;
+    margin: 0px;
 }
 /* INDEX */
 .section1{
@@ -45,9 +45,11 @@ footer .footer-menu{
     background-size: cover;
     text-align: center;
 }
+.section1 .left{
+    list-style: none;
+}
 .section1 .left img{
     padding: 100px;
-    list-style: none;
 }
 .section1 .ver-mas{
     color: white;
