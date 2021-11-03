@@ -9,6 +9,7 @@ body{
     color: white;
     background: #812F33;
     padding: 10px;
+    font-size: 30px;
 }
 .nav2{
     text-align: center;
@@ -16,4 +17,7 @@ body{
     color: white;
     background: #A5AAA3;
     padding: 10px;
+}
+.nav a{
+    font-size: 20px;
 }
