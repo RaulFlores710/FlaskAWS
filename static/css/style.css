@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding: 0px;
 }
-
+/*HEADER & FOOTER */
 header .nav1{
     text-align: center;
     font-family: 'Almendra SC', serif;
@@ -24,7 +24,7 @@ header .nav2 a{
     margin-right: 10px;
 }
 footer{
-    background-image: url("/static/imgs/footer-img.jpg");
+    background-image: url("https://cdn.wallpapersafari.com/80/35/HXOizb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,4 +33,21 @@ footer .footer-menu{
     padding: 100px;
     font-family: 'Almendra', serif;
     color: white;
+    font-size: 20px;
+}
+/* INDEX */
+.section1 .ver-mas{
+    color: white;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: inherit;
+text-transform: uppercase;
+text-decoration: none;
+padding: 6px;
+border-radius: 6px;
+outline: none;
+background: rgba(0, 0, 0, 0.1);
+    background-size: auto;
+display: inline-block;
+cursor: pointer;
 }
